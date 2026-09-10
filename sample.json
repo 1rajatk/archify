@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Test Workflow"
+  },
+  "lanes": [
+    {
+      "id": "lane-1",
+      "label": "Main Process"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node-1",
+      "lane": "lane-1",
+      "col": 1,
+      "type": "backend",
+      "label": "Start Process"
+    }
+  ],
+  "edges": []
+}
